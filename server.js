@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const path = require('path')
-const stripe = require('stripe')(process.env.PUBLISHABLEKEY)
+const stripe = require('stripe')(process.env.SECRETKEY)
 
 const app = express()
 app.use(bodyParser.urlencoded({ extended: true }))

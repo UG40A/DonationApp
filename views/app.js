@@ -1,5 +1,5 @@
-const stripe = Stripe(process.env.SECUREKEY);
-const elements = stripe.elements()
+const stripe = Stripe('pk_test_333PwYxyqGNH5j8waNwAe53f00RiiIIGW6');
+const elements = stripe.elements();
 
 var style = {
     base: {
