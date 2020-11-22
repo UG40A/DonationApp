@@ -1,4 +1,4 @@
-const stripe = Stripe('$STRPK');
+const stripe = Stripe('pk_live_51HoZ2lAumu0x6QCNH0Gxr8DMAtlSjgr4N8t1T6qQ1UmBJoNv0XWtxRoepkntvisKRG46hjGq79v3RRrCku7uOglR00ENFnGTeh');
 const elements = stripe.elements();
 
 var style = {
